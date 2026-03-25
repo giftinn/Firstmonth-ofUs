@@ -10,8 +10,7 @@ const SecretLetterPage: React.FC<SecretLetterPageProps> = ({ onBackToStart }) =>
   const [displayedText, setDisplayedText] = useState('');
   const [showFinalMessage, setShowFinalMessage] = useState(false);
 
-  const fullText = `I'm not really good with sweet words or comforting people the "right" way, but I genuinely care about you, princess. Lately you've looked really tired… maybe I'm just being overly sensitive, but it feels like you've been carrying a lot. If you're exhausted, that's completely okayy. You've come this far and you've been trying, don't forget that yaa. About your exams, just take it step by step. You don't have to get everything instantly, what matters is that you're putting in the effort and understanding things little by little. Please don't be so hard on yourself.
-If you're tired, rest. If your head feels heavy, pause for a bit. You don't have to be strong all the time. Oh and by the wayy, if I don't double my letters when I type, it doesn't mean I'm in a bad mood or anything. I'm always happy whenever we talk. Sometimes I get so carried away that I don't even realize how much time has passed while I'm talking to you. I'm saying this just so you know that I genuinely care about you.`;
+  const fullText = `Happy first mensive, Baby. Aku senangsenangsenang bgt bisa ngerayain mensive pertama kita, dari yang kita cuma temenan biasa sekarang kita udah bisa ngerayain mensive. Waktu secepat itu berjalan, apalagi sama orang yang aku sayang. Sayangku, aku sayang kamu bgt pake bangeeeett, please spend more months and years with me ya sayaang. I love you.`;
 
   useEffect(() => {
     let currentIndex = 0;
