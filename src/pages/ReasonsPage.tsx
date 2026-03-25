@@ -16,39 +16,39 @@ interface Reason {
 const ReasonsPage: React.FC<ReasonsPageProps> = ({ onNext }) => {
   const [reasons, setReasons] = useState<Reason[]>([
     {
-      id: 1,
-      title: 'Your Forgiveness',
-      text: 'You have the biggest heart for giving us another chance',
+      id: 1, 
+      title: 'Your voice',
+      text: 'your voice is the best melody I have ever heard',
       isRevealed: false
     },
     {
       id: 2,
-      title: 'Your Presence',
-      text: 'Just being with you feels like home.',
+      title: 'Your kindness',
+      text: 'you are also one of the kindest person I have met',
       isRevealed: false
     },
     {
       id: 3,
-      title: 'Your Kindness',
-      text: 'The way you care about the little things amazes me.',
+      title: 'You also love me',
+      text: 'I feel loved by you',
       isRevealed: false
     },
     {
       id: 4,
-      title: 'How Comfortable I Am',
-      text: 'I can truly be myself when I’m with you.',
+      title: 'You are loud',
+      text: 'that makes me love you more',
       isRevealed: false
     },
     {
       id: 5,
-      title: 'Just Being You',
-      text: 'Because you are you, and that is more than enough.',
+      title: 'You have a soft heart',
+      text: ' you have such a great empathy baby',
       isRevealed: false
     },
     {
       id: 6,
-      title: 'You',
-      text: 'I love you not for what you do, but for exactly who you are.',
+      title: 'You are my star',
+      text: 'a star I always see every night',
       isRevealed: false
     }
   ]);
